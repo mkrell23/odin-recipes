@@ -30,6 +30,8 @@ ol li {
 
 .mainTitle {
     margin: 15px;
+    text-align: center;
+    margin: auto;
 }
 
 .pageList {
@@ -38,9 +40,13 @@ ol li {
     width: 80%;
     margin: 5px;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .pageList li {
     width: 60%;
     margin: 10px;
+    text-align: right;
 }
