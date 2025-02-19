@@ -27,3 +27,18 @@ ol li {
     margin: 5px;
     width: 80%;
 }
+
+.mainTitle {
+    margin: 15px;
+}
+
+.pageList {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin: 5px;
+}
+
+.pageList li {
+    width: 60%;
+}
