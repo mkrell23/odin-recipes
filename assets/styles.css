@@ -9,6 +9,7 @@ html {
 *::after {
     box-sizing: inherit;
     background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .heroPic {
