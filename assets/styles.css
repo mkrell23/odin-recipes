@@ -1,3 +1,28 @@
-*{
+/* Reset the box-model */
+html {
+    box-sizing: border-box;
+  }
+  
+/* Pass down the box-sizing property */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
     background-color: darkgray;
+}
+
+.heroPic {
+    width: 50%;
+}
+
+p,
+h3 {
+    margin: 20px;
+    width: 80%;
+}
+
+ol li {
+    padding:5px;
+    margin: 5px;
+    width: 80%;
 }
